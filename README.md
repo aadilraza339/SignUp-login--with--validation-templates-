@@ -30,7 +30,8 @@
  These are the endpoints Below you Can run them using postman, here is the link for download<a href="https://www.postman.com/downloads/">click here</a>
  
  <br>
- If we run ``sign_up`` ``login`` with front-end then we have to ``Copy`` the path of ``HTML page`` from View folder, AND ``Paste`` it on any Browser. <br>
+ If we run sign_up login with front-end then we have to Copy the path of HTML page from View folder, AND Paste it on any Browser. <br>
+ 
  ```javascript
 router.post('/sign_up',checkSchema(registrationSchema), userControllers.userRegister);
 router.post('/login', userControllers.userLogin);
