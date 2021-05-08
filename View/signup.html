@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont top">
+        <form action="http://localhost:3000/sign_up" method="post">
+            <div class="form sign-in">
+                <h2>Welcome back,</h2>
+                <label class="label-width">
+                    <span>username</span>
+                    <input class="inputtage"  type="text" name="username"/>
+                </label>
+                <label class="label-width">
+                <span>Email</span>
+                <input class="inputtage"  type="email" name="email" />
+                </label>
+                <label class="label-width">
+                <span>Password</span>
+                <input class="inputtage" type="password" name="password" />
+                </label>
+                <label class="label-width">
+                    <span>PHONE NUMBER</span>
+                    <input class="inputtage" type="tel" name="phone" />
+                </label>
+                <div class="gender">
+                    <label class="radio-inline"><input type="radio" name="gender" value="1">Male</label>
+                    <label class="radio-inline"><input type="radio" name="gender" value="0">Female</label>
+                </div>
+                <div class="Brith">
+                    <input class="date" type="date" name="age"> <span style="padding-left: 20px;" >Date of Birth </span>
+                </div>
+
+                <button type="submit" class="submit">Sign Up</button>
+            </div>
+        </form>
+
+        <div class="sub-cont">
+            <div class="img"></div>
+        </div>
+    </div>    
+</body>
+</html>
