@@ -21,11 +21,14 @@
 ``nodemon index.js``
 
 <br>
-### I used these things to make this project. <br>
-``Express`` ``JWT`` ``bcrypt`` ``knex`` ``mysql``
+
+## I used these things to make this project. <br>
+``Express`` ``JWT``  ``bcrypt``  ``knex`` ``mysql``
+
  <br>
  
  These are the endpoints Below you Can run them using postman, here is the link for download<a href="https://www.postman.com/downloads/">click here</a>
+ 
  <br>
  If we run ``sign_up`` ``login`` with front-end then we have to ``Copy`` the path of ``HTML page`` from View folder, AND ``Paste`` it on any Browser. 
  ```javascript 
